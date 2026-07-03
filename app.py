@@ -43,6 +43,14 @@ Esta aplicación predice el **nivel de riesgo actuarial** de un cliente utilizan
 **K-Means** entrenado sobre datos históricos de seguros médicos.
 """)
 
+st.markdown(
+    "<p style='font-size:14px; color:#666;'>"
+    "<b>José Carlos Torres Donaire</b> — 20211920141 — "
+    "Clase de Inteligencia Artificial"
+    "</p>",
+    unsafe_allow_html=True
+)
+
 with st.sidebar:
     st.header("📋 Datos del Cliente")
 
